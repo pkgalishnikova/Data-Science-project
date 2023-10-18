@@ -15,7 +15,7 @@ import streamlit as st
 import warnings
 warnings.simplefilter('ignore')
 
-dataset_nhl = pd.read_csv("/Users/polinagalisnikova/Downloads/nhlplayoffs.csv")
+dataset_nhl = pd.read_csv("/Users/polinagalisnikova/Desktop/dsba 1st year/project/nhlplayoffs.csv")
 
 st.title("NHL Stanley Cup Playoffs (1918 - 2022)")
 st.markdown("For my project I decided to choose the **NHL Stanley Cup Playoffs (1918 - 2022)** dataset. It contains information regarding the games, their results and generally statistics in certain NHL seasons. I am going to give an overview and analyze data further.")
